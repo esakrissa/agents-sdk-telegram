@@ -1,0 +1,5 @@
+openai
+openai-agents
+httpx
+python-dotenv
+python-telegram-bot
