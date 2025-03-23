@@ -73,4 +73,4 @@ The project implements a simple MCP server (`weather_mcp.py`) that provides the 
 
 ## License
 
-MIT 
+MIT © Esa Krissa 
