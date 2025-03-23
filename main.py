@@ -81,7 +81,7 @@ class WeatherBot:
         await update.message.reply_text(
             'Hi! I\'m your AI weather assistant powered by weather MCP capabilities. '
             'I can fetch real-time weather data for most cities in the world.\n\n'
-            'Try asking: *what\'s the weather in Bali?*',
+            'Try asking: *what\'s the weather in Ubud?*',
             parse_mode='Markdown'
         )
 
@@ -89,7 +89,7 @@ class WeatherBot:
         """Handle the /help command."""
         await update.message.reply_text(
             'I can help you check real-time weather conditions! Just ask me something like:\n'
-            '*what\'s the weather in Bali?*',
+            '*what\'s the weather in Ubud?*',
             parse_mode='Markdown'
         )
 
@@ -140,7 +140,7 @@ class WeatherBot:
                 else:
                     await update.message.reply_text(
                         "Please tell me which city you want the weather for.\n"
-                        "For example: *what's the weather in Bali?*",
+                        "For example: *what's the weather in Ubud?*",
                         parse_mode='Markdown'
                     )
             else:

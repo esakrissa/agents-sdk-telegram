@@ -1,5 +1,8 @@
 openai
 openai-agents
-httpx
-python-dotenv
+mcp
 python-telegram-bot
+python-dotenv
+httpx
+pydantic
+requests
